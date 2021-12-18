@@ -6,3 +6,7 @@
 4. using naive Bayes Classifier to find an accuracy of 91%
 
 ### Using Doc2Vec Model
+1. Using TaggedDocument Method to label the sentences
+2. Training the model on 30 epochs to get the values for vectorizer
+3. Using Logistic Regression on trained Doc2Vec Features
+4. Accuracy recieved 83%
