@@ -10,3 +10,6 @@
 2. Training the model on 30 epochs to get the values for vectorizer
 3. Using Logistic Regression on trained Doc2Vec Features
 4. Accuracy recieved 83%
+
+### Ways to Improve the model further
+1. 
