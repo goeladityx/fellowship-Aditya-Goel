@@ -2,7 +2,7 @@
 """
 Created on Sat Dec 18 01:59:52 2021
 
-@author: adity
+@author: aditya
 """
 
 import logging
@@ -43,12 +43,11 @@ def clean_text(text):
         
         return: modified initial string
     """
-    text = BeautifulSoup(text, "lxml").text # HTML decoding
-    text = text.lower() # lowercase text
-    text = REPLACE_BY_SPACE_RE.sub(' ', text) # replace REPLACE_BY_SPACE_RE symbols by space in text
-    text = BAD_SYMBOLS_RE.sub('', text) # delete symbols which are in BAD_SYMBOLS_RE from text
-    text = ' '.join(word for word in text.split() if word not in STOPWORDS) # delete stopwors from text
-    return text
+    text = BeautifulSoup(text, "lxml").text
+    text = text.lower()
+    text = REPLACE_BY_SPACE_RE.sub(' ', text)
+    text = BAD_SYMBOLS_RE.sub('', text)
+    text = ' '.join(word for word in text.split() if word not in STOPWORDS)
     
 df['post'] = df['post'].apply(clean_text)
 #print_plot(10)
