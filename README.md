@@ -11,5 +11,13 @@
 3. Using Logistic Regression on trained Doc2Vec Features
 4. Accuracy recieved 83%
 
+### Improvements made
+1. Missing data removed
+2. All Classes distributions equalized
+3. Punctuation marks removed
+
 ### Ways to Improve the model further
-1. 
+1. We will be looking for improvements from Naive Bayes as this model has proved to provide the best accuracy till now.
+2. Using a correlation matrix redundant features can be removed to find a better accuracy.
+3. We can try using log probabilites as due to a number of features the probability fraction might be very less initially.
+4. Grid search CV can be used to find different parametric combinations that can prove to be the best fit for the Multinomial Naive Bayes
