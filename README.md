@@ -1,4 +1,4 @@
-# fellowship-Aditya-Goel
+# Fellowship.AI-Aditya-Goel
 ### Steps taken:
 1. Cleaning the Advertizement posts in terms of punctuation and stopwords
 2. Joining the Post with definition
