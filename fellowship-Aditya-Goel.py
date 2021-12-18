@@ -76,7 +76,7 @@ y_pred = nb.predict(X_test)
 print('accuracy %s' % accuracy_score(y_pred, y_test))
 print(classification_report(y_test, y_pred))
 
-#Using Logistic Regression
+#Using Linear SVM
 
 from sklearn.linear_model import SGDClassifier
 
